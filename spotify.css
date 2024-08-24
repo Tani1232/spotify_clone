@@ -1,0 +1,179 @@
+.container{
+    border:2px solid black;
+    height: 20px;
+    display:flex;
+    height: 680px;
+
+}
+
+
+.left{
+    border: 2px solid grey;
+    margin-right: 2px;
+    width: 75vh;
+    background-color: black;
+
+}
+
+.right{
+   border:2px solid grey;
+    margin: 2px;
+    width: 150vh;
+    background-color: black;
+}   
+
+img{
+    width: 40px;
+    margin: 6px;
+}
+
+ul{
+    list-style-type: none;
+    color:White;
+}
+
+.Home{
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Search{
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.upperleft{
+    margin-bottom: 50px;
+}
+
+.Library{
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+button{
+    border-radius: 10px;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.448);
+}
+
+.Recent{
+    width:75px;
+    margin-left: 290px;
+}
+
+.likedsongs{
+    display: flex;
+    align-items: center ;
+    margin-left: 20px;
+    background-color: rgba(128, 128, 128, 0.184);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+    
+}
+
+.liked{
+    margin-left:10px;
+}
+.m{
+    width:400px;
+    height: 70px;  
+}
+
+.arabic{
+    width:400px;
+    height: 70px;
+}
+
+.jugnu{
+    width:400px;
+    height: 70px;
+}
+.playlist2{
+    width:400px;
+    height: 70px;
+}
+
+.scrollable{
+   
+    overflow-y: auto; /* Scroll vertically */
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+.but{
+    padding:5px;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+.but1{
+    margin:2px;
+    background-color: rgba(128, 128, 128, 0.184); 
+}
+.but2{
+    margin:2px;
+    background-color: rgba(128, 128, 128, 0.184);  
+}
+
+.but3{
+    margin:2px;
+    background-color: rgba(128, 128, 128, 0.184); 
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,10fr);
+    gap: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.im{
+    width:230px;
+    height:55px;
+}
+
+p{
+    color:white;
+    font-size:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:10px;
+    margin-top: 50px;
+}
+
+.pod{
+    width:150px;
+}
+
+.abc{
+    width:50px;
+}
+
+body{
+    background-color: grey;
+}
+
+/* Hide scrollbars by default */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  /* Show scrollbars on hover */
+  .sscrollable:hover::-webkit-scrollbar {
+    width: 6px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .hove:hover{
+    cursor:pointer;
+    text-decoration: underline;
+  }
